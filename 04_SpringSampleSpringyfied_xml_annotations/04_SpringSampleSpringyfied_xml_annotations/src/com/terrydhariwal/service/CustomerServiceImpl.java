@@ -12,8 +12,25 @@ import java.util.List;
 @Service("customerService") //the name is the same as the interface (but starting with lower case)
 public class CustomerServiceImpl implements CustomerService {
 
-    @Autowired //Member based injection - uses reflection under the hood
+    //@Autowired //Member based injection - uses reflection under the hood
     private CustomerRepository customerRepository;
+
+    public CustomerServiceImpl(){}
+
+    public CustomerRepository getCustomerRepository() {
+        return customerRepository;
+    }
+
+    @Autowired //Using setter based injection
+    // (requires the default no-args constructor to work,
+    // so if you've defined any other arg based constructor, then you'll
+    // need to explicity define the default no-arg constructor for this
+    // to work.
+    // as a rule of thumb I define it anyway
+    public void setCustomerRepository(CustomerRepository customerRepository) {
+        System.out.println("we are using setter injection");
+        this.customerRepository = customerRepository;
+    }
 
     @Override
     public List<Customer> findAll() {
