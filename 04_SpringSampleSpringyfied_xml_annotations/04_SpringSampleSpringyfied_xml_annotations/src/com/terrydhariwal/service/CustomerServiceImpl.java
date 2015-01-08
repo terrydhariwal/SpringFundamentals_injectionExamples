@@ -21,7 +21,13 @@ public class CustomerServiceImpl implements CustomerService {
         return customerRepository;
     }
 
-    @Autowired //Using setter based injection
+    @Autowired //constructor injection
+    public CustomerServiceImpl(CustomerRepository customerRepository) {
+        System.out.println("we are using constructor injection");
+        this.customerRepository = customerRepository;
+    }
+
+    //@Autowired //Using setter based injection
     // (requires the default no-args constructor to work,
     // so if you've defined any other arg based constructor, then you'll
     // need to explicity define the default no-arg constructor for this
