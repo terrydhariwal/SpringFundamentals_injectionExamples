@@ -3,7 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-       <bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />
 
        <!-- Setter injection/wiring example ...
 
@@ -15,6 +14,7 @@
        customerServices's customerRepository bean
 
        -->
+       <!--<bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />-->
        <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl">-->
               <!--<property name="customerRepository" ref="customerRepository"/>-->
        <!--</bean>-->
@@ -28,9 +28,39 @@
        I won't let you to create a customerService implementation without having a customerRepository set on it
 
        -->
-       <bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl">
-              <constructor-arg index="0" ref="customerRepository"/>
-       </bean>
+       <!--<bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />-->
+       <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" >-->
+              <!--<constructor-arg index="0" ref="customerRepository"/>-->
+       <!--</bean>-->
+       <!-- Autowiring by constructor example -->
+       <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="constructor"/>-->
 
+       <!-- Autowiring by ByType example
+       For this to work, the customerServiceImpl needs 2 things:
+       1) the default no-args constructor
+       2) a setter for the customerRepository property
+
+       There is one more condition for ByType to work ...
+       It will ONLY work if there is ONE matching bean type (in this case HibernateCustomerRepositoryImpl)
+       But if I uncomment the customerRepository2 then that condition breaks
+       -->
+       <!--<bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />-->
+       <!--<bean name="customerRepository2" class="com.terrydhariwal.repository.DummyCustomerRepositoryImpl" />-->
+       <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="byType"/>-->
+
+       <!-- Autowiring by byName example
+       For this to work, the customerServiceImpl needs 2 things:
+       1) the default no-args constructor
+       2) a setter for the customerRepository property
+
+       For this to work there needs to be a matching bean with the name of the property to set.
+       In other words this works because I have a bean called "customerRepository" which matches
+       the name of the property we want to set in the "customerService bean"
+
+       If we change the name of that bean to "customerRepository2" then this will break
+       since it will no longer match the property "customerRepository"
+       -->
+       <bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />
+       <bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="byName"/>
 
 </beans>
