@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/01_SpringSample/01_SpringSample.iml" filepath="$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/01_SpringSample/01_SpringSample.iml" />
       <module fileurl="file://$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" filepath="$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" filepath="$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" />
     </modules>
   </component>
 </project>

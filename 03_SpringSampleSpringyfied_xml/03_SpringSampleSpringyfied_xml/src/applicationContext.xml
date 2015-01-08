@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />
+
+       <!-- Setter injection/wiring example ...
+
+       Setter injection is much more common than constructor injection
+       because it works with more code.
+
+       The customerRepository bean is referenced in the customerService bean
+       In other words the customerRepository class HibernateCustomerRepositoryImpl is the value of
+       customerServices's customerRepository bean
+
+       -->
+       <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl">-->
+              <!--<property name="customerRepository" ref="customerRepository"/>-->
+       <!--</bean>-->
+       <!---->
+
+
+       <!-- Constructor injection/wiring example ...
+
+       Constructor injection allows you to guarantee a contract ...
+       So it allows you to say ...
+       I won't let you to create a customerService implementation without having a customerRepository set on it
+
+       -->
+       <bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl">
+              <constructor-arg index="0" ref="customerRepository"/>
+       </bean>
+
+
+</beans>
