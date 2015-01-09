@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" filepath="$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" filepath="$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" filepath="$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto.iml" filepath="$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto.iml" />
     </modules>
   </component>
 </project>
