@@ -6,6 +6,7 @@
       <module fileurl="file://$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" filepath="$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" filepath="$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" filepath="$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" filepath="$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" />
     </modules>
   </component>
 </project>
