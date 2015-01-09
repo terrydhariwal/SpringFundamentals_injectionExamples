@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/01_SpringSample/01_SpringSample.iml" filepath="$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/01_SpringSample/01_SpringSample.iml" />
-      <module fileurl="file://$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" filepath="$USER_HOME$/Dropbox/dev/java/IdeaProjects/SpringFundamentals/02_SpringSampleSpringyfied/02_SpringSampleSpringyfied.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" filepath="$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml/03_SpringSampleSpringyfied_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" filepath="$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations/04_SpringSampleSpringyfied_xml_annotations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" filepath="$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring/05_SpringSampleSpringyfied_java_wiring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto.iml" filepath="$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto/06_SpringSampleSpringyfied_java_wiring_auto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/a_SpringSampleSpringyfied_xml/a_SpringSampleSpringyfied_xml.iml" filepath="$PROJECT_DIR$/03_SpringSampleSpringyfied_xml/a_SpringSampleSpringyfied_xml/a_SpringSampleSpringyfied_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/b_SpringSampleSpringyfied_xml_annotations/b_SpringSampleSpringyfied_xml_annotations.iml" filepath="$PROJECT_DIR$/04_SpringSampleSpringyfied_xml_annotations/b_SpringSampleSpringyfied_xml_annotations/b_SpringSampleSpringyfied_xml_annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring.iml" filepath="$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/d_SpringSampleSpringyfied_java_wiring_auto/d_SpringSampleSpringyfied_java_wiring_auto.iml" filepath="$PROJECT_DIR$/06_SpringSampleSpringyfied_java_wiring_auto/d_SpringSampleSpringyfied_java_wiring_auto/d_SpringSampleSpringyfied_java_wiring_auto.iml" />
     </modules>
   </component>
 </project>

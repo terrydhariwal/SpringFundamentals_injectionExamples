@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="lib4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-core-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-orm-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-expression-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-jdbc-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-aspects-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-instrument-tomcat-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-oxm-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-instrument-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-aop-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-context-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-jms-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-test-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-beans-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-context-support-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-tx-4.1.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/05_SpringSampleSpringyfied_java_wiring/c_SpringSampleSpringyfied_java_wiring/lib/spring-messaging-4.1.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
