@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("03_xml_wiring");
+        System.out.println("a_xml_wiring");
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         CustomerService service = applicationContext.getBean("customerService", CustomerService.class);
         System.out.println(service.findAll().get(0).getFirstName());

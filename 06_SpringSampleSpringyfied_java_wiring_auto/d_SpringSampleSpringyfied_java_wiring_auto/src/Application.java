@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("06_Java_wiring_autowired (only annotations and java)");
+        System.out.println("d_Java_wiring_autowired (only annotations and java)");
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         CustomerService service = applicationContext.getBean("customerService", CustomerService.class);
         System.out.println(service.findAll().get(0).getFirstName());

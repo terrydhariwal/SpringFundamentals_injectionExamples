@@ -7,7 +7,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        System.out.println("04_xml_with_annotations");
+        System.out.println("b_xml_with_annotations");
 
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
 
