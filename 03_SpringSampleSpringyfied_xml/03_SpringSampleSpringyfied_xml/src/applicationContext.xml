@@ -61,6 +61,7 @@
        since it will no longer match the property "customerRepository"
        -->
        <bean name="customerRepository" class="com.terrydhariwal.repository.HibernateCustomerRepositoryImpl" />
-       <bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="byName"/>
+       <bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="byName" scope="singleton"/>
+       <!--<bean name="customerService" class="com.terrydhariwal.service.CustomerServiceImpl" autowire="byName" scope="prototype"/>-->
 
 </beans>

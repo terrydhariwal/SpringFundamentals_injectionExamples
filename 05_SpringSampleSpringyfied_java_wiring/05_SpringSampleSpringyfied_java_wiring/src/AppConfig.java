@@ -4,11 +4,14 @@ import com.terrydhariwal.service.CustomerService;
 import com.terrydhariwal.service.CustomerServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class AppConfig {
 
     @Bean(name = "customerService")
+    @Scope("singleton")
+    //@Scope("prototype")
     public CustomerService getCustomerService(){
 
         // Setter Injection example:
