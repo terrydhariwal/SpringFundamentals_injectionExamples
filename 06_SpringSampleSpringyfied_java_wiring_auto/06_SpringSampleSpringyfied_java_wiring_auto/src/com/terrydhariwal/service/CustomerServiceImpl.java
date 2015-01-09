@@ -27,12 +27,6 @@ public class CustomerServiceImpl implements CustomerService {
         System.out.println("In default constructor, after this constructor returns, customerRepository will be member injected (reflection), at the moment customerRepository is " + customerRepository);
     }
 
-    public CustomerServiceImpl(CustomerRepository customerRepository) {
-        System.out.println("In non-default constructor");
-        this.customerRepository = customerRepository;
-        System.out.println("using constructor injection " + "customerRepository = " + customerRepository);
-    }
-
     @Override
     public List<Customer> findAll() {
         return customerRepository.findAll();
